@@ -9,44 +9,47 @@
 
 
 
+  <!-- SEO相关 -->
+
+
+
+  <meta name="robots" content="index,follow">
+
+
+
+  <!-- 渲染优化 -->
+
+
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="preload" href="${path}css/first.css" as="style">
+
+
+  <!-- 页面元数据 -->
+
+  <title>Catch huang&#39;s Blog</title>
+
+
+
+
+  <!-- feed -->
+
+  <link rel="alternate" href="/atom.xml" title=" huang's Blog" type="application/atom+xml">
+
+
+  <!-- import meta -->
   <% String path=request.getContextPath(); String
     basePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
     request.setAttribute("path", basePath); %>
-    <!-- SEO相关 -->
-
-
-
-    <meta name="robots" content="index,follow">
-
-
-
-    <!-- 渲染优化 -->
-    <meta http-equiv='x-dns-prefetch-control' content='on' />
-    <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-    <meta name="renderer" content="webkit">
-    <meta name="force-rendering" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <link rel="preload" href="${path}css/first.css" as="style">
-
-
-    <!-- 页面元数据 -->
-
-    <title>Catch huang&#39;s Blog</title>
-
-
-
-
-    <!-- feed -->
-
-    <link rel="alternate" href="/atom.xml" title="Catch Wang's Blog" type="application/atom+xml">
-
-
-    <!-- import meta -->
 
 
     <!-- link -->
@@ -140,7 +143,7 @@
 
 
 
-            Catch Wang's Blog
+            Catch huang's Blog
 
           </a>
 
